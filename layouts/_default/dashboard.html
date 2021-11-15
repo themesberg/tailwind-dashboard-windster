@@ -1,0 +1,16 @@
+{{ define "main" }}
+{{ partial "navbar-dashboard" . }}
+<div class="flex overflow-hidden bg-white pt-16">
+
+  {{ partial "sidebar" . }}
+  
+  <div id="main-content" class="h-full w-full bg-gray-50 relative overflow-y-auto lg:ml-64">
+    <main>
+      {{ .Content }}
+    </main>
+    {{ if .Params.footer }} {{ partial "footer-dashboard" . }} {{ end }}
+  </div>
+
+</div>
+
+{{ end }}

@@ -1,0 +1,29 @@
+languageCode:           "en"
+title:                  "Windster Pro - Tailwind CSS Dashboard"
+baseURL:                "https://demo.themesberg.com/windster-pro/"
+enableInlineShortcodes: true
+canonifyURLs: true
+
+params:
+  authors: Themesberg
+  social_image_path: /docs/images/og-image.png
+
+markup:
+  goldmark:
+    renderer:
+      unsafe:           true
+  highlight:
+    noClasses:          false
+    style:              colorful
+  tableOfContents:
+    startLevel:         2
+    endLevel:           6
+
+buildDrafts:            true
+buildFuture:            true
+
+enableRobotsTXT:        true
+metaDataFormat:         "yaml"
+disableKinds:           ["404", "taxonomy", "taxonomyTerm", "RSS"]
+
+publishDir:             "_gh_pages"

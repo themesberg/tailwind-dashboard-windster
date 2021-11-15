@@ -1,0 +1,12 @@
+account_id = "3f61edc7e05ae99a6eddb9a0fb862ba7"
+compatibility_date = "2021-10-16"
+name = "application-ui-demo"
+route = 'flowbite.com/application-ui/demo/*'
+type = "webpack"
+usage_model = ''
+workers_dev = true
+zone_id = '747b8c42fb2a8562000faedb479c0744'
+
+[site]
+bucket = "./.build"
+entry-point = "workers-site"

@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {{ partial "header" . }}
+  </head>
+  {{ block "body_override" . }}<body class="{{ if .Params.white_bg }}bg-white{{ else }}bg-gray-50{{ end }}">{{ end }}
+    {{ partial "skippy" . }}
+
+    {{ block "main" . }}
+    {{ end }}
+
+    {{ partial "scripts" . }}
+  </body>
+</html>
