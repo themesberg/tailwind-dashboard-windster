@@ -1,5 +1,5 @@
 languageCode:           "en"
-title:                  "Windster Pro - Tailwind CSS Dashboard"
+title:                  "Windster - Tailwind CSS Dashboard"
 baseURL:                "https://demo.themesberg.com/windster-pro/"
 enableInlineShortcodes: true
 canonifyURLs: true

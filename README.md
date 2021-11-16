@@ -1,4 +1,4 @@
-# Windster Pro - Tailwind CSS dashboard
+# Windster - Tailwind CSS dashboard
 
 ## Getting started
 
