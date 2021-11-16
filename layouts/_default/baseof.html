@@ -4,6 +4,10 @@
     {{ partial "header" . }}
   </head>
   {{ block "body_override" . }}<body class="{{ if .Params.white_bg }}bg-white{{ else }}bg-gray-50{{ end }}">{{ end }}
+      <!-- Google Tag Manager (noscript) -->
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-THQTXJ7"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->
     {{ partial "skippy" . }}
 
     {{ block "main" . }}

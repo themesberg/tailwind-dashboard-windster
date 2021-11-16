@@ -15,3 +15,4 @@ yarn.lock
 yarn-error.log
 release
 .release
+.DS_Store
