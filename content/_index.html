@@ -22,46 +22,6 @@ footer: true
       </div>
     </div>
     <div id="main-chart"></div>
-    <!-- Card Footer -->
-    <div class="flex items-center justify-between border-t border-gray-200 pt-3 sm:pt-6 mt-5">
-      <div>
-        <button class="text-gray-500 hover:text-gray-900 font-medium rounded-lg text-sm text-center inline-flex items-center p-2" type="button" data-dropdown-toggle="weekly-sales-dropdown">Last 7 days <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
-        <!-- Dropdown menu -->
-        <div class="hidden bg-white text-base z-50 list-none divide-y divide-gray-100 rounded shadow my-4" id="weekly-sales-dropdown">
-            <div class="px-4 py-3" role="none">
-              <p class="text-sm font-medium text-gray-900 truncate" role="none">
-                Sep 16, 2021 - Sep 22, 2021
-              </p>
-            </div>
-            <ul class="py-1" role="none">
-              <li>
-                <a href="#" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2" role="menuitem">Yesterday</a>
-              </li>
-              <li>
-                <a href="#" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2" role="menuitem">Today</a>
-              </li>
-              <li>
-                <a href="#" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2" role="menuitem">Last 7 days</a>
-              </li>
-              <li>
-                <a href="#" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2" role="menuitem">Last 30 days</a>
-              </li>
-              <li>
-                <a href="#" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2" role="menuitem">Last 90 days</a>
-              </li>
-            </ul>
-            <div class="py-1" role="none">
-              <a href="#" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2" role="menuitem">Custom...</a>
-            </div>
-        </div>
-      </div>
-      <div class="flex-shrink-0">
-        <a href="#" class="text-xs sm:text-sm font-medium hover:bg-gray-100 rounded-lg p-2 uppercase text-cyan-600 inline-flex items-center">
-          Sales Report
-          <svg class="w-4 h-4 sm:w-5 sm:h-5 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
-        </a>
-      </div>
-    </div>
     {{< /card>}}
     {{< card>}}
       <!-- Card Title -->
@@ -91,9 +51,6 @@ footer: true
                     <th scope="col" class="p-4 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                       Amount
                     </th>
-                    <th scope="col" class="p-4 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                      Status
-                    </th>
                   </tr>
                 </thead>
                 <tbody class="bg-white">
@@ -107,10 +64,6 @@ footer: true
                     <td class="p-4 whitespace-nowrap text-sm font-semibold text-gray-900">
                       $2300
                     </td>
-                    <td class="p-4 whitespace-nowrap">
-                      <span
-                        class="bg-green-100 text-green-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-md">Completed</span>
-                    </td>
                   </tr>
                   <tr class="bg-gray-50">
                     <td class="p-4 whitespace-nowrap text-sm font-normal text-gray-900 rounded-lg rounded-left">
@@ -121,10 +74,6 @@ footer: true
                     </td>
                     <td class="p-4 whitespace-nowrap text-sm font-semibold text-gray-900">
                       -$670
-                    </td>
-                    <td class="p-4 whitespace-nowrap rounded-lg rounded-right">
-                      <span
-                        class="bg-green-100 text-green-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-md">Completed</span>
                     </td>
                   </tr>
                   <tr>
@@ -137,10 +86,6 @@ footer: true
                     <td class="p-4 whitespace-nowrap text-sm font-semibold text-gray-900">
                       $234
                     </td>
-                    <td class="p-4 whitespace-nowrap">
-                      <span
-                        class="bg-red-100 text-red-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-md">Cancelled</span>
-                    </td>
                   </tr>
                   <tr class="bg-gray-50">
                     <td class="p-4 whitespace-nowrap text-sm font-normal text-gray-900 rounded-lg rounded-left">
@@ -151,9 +96,6 @@ footer: true
                     </td>
                     <td class="p-4 whitespace-nowrap text-sm font-semibold text-gray-900">
                       $5000
-                    </td>
-                    <td class="p-4 whitespace-nowrap rounded-lg rounded-right">
-                      <span class="bg-purple-100 text-purple-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-md">In progress</span>
                     </td>
                   </tr>
                   <tr>
@@ -166,10 +108,6 @@ footer: true
                     <td class="p-4 whitespace-nowrap text-sm font-semibold text-gray-900">
                       $2300
                     </td>
-                    <td class="p-4 whitespace-nowrap">
-                      <span
-                        class="bg-green-100 text-green-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-md">Completed</span>
-                    </td>
                   </tr>
                   <tr class="bg-gray-50">
                     <td class="p-4 whitespace-nowrap text-sm font-normal text-gray-900 rounded-lg rounded-left">
@@ -180,9 +118,6 @@ footer: true
                     </td>
                     <td class="p-4 whitespace-nowrap text-sm font-semibold text-gray-900">
                       $560
-                    </td>
-                    <td class="p-4 whitespace-nowrap rounded-lg rounded-right">
-                      <span class="bg-green-100 text-green-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-md">Completed</span>
                     </td>
                   </tr>
 
@@ -196,55 +131,11 @@ footer: true
                     <td class="p-4 whitespace-nowrap text-sm font-semibold text-gray-900">
                       $1437
                     </td>
-                    <td class="p-4 whitespace-nowrap">
-                      <span
-                        class="bg-green-100 text-green-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-md">Completed</span>
-                    </td>
                   </tr>
                 </tbody>
               </table>
             </div>
           </div>
-        </div>
-      </div>
-      <!-- Card Footer -->
-      <div class="flex items-center justify-between pt-3 border-t sm:pt-6">
-        <div>
-          <button class="text-gray-500 hover:text-gray-900 font-medium rounded-lg text-sm text-center inline-flex items-center p-2" type="button" data-dropdown-toggle="transactions-dropdown">Last 7 days <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
-          <!-- Dropdown menu -->
-          <div class="hidden bg-white text-base z-50 list-none divide-y divide-gray-100 rounded shadow my-4" id="transactions-dropdown">
-              <div class="px-4 py-3" role="none">
-                <p class="text-sm font-medium text-gray-900 truncate" role="none">
-                  Sep 16, 2021 - Sep 22, 2021
-                </p>
-              </div>
-              <ul class="py-1" role="none">
-                <li>
-                  <a href="#" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2" role="menuitem">Yesterday</a>
-                </li>
-                <li>
-                  <a href="#" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2" role="menuitem">Today</a>
-                </li>
-                <li>
-                  <a href="#" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2" role="menuitem">Last 7 days</a>
-                </li>
-                <li>
-                  <a href="#" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2" role="menuitem">Last 30 days</a>
-                </li>
-                <li>
-                  <a href="#" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2" role="menuitem">Last 90 days</a>
-                </li>
-              </ul>
-              <div class="py-1" role="none">
-                <a href="#" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2" role="menuitem">Custom...</a>
-              </div>
-          </div>
-        </div>
-        <div class="flex-shrink-0">
-          <a href="#" class="text-xs sm:text-sm font-medium hover:bg-gray-100 rounded-lg p-2 uppercase text-cyan-600 inline-flex items-center">
-           Transactions Report
-            <svg class="w-4 h-4 sm:w-5 sm:h-5 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
-          </a>
         </div>
       </div>
     {{< /card>}}
@@ -302,7 +193,6 @@ footer: true
         </div>
       {{< /card>}}
     </div>
-    <!--aslkdjsajdlksa--->
     <div class="grid grid-cols-1 2xl:grid-cols-2 xl:gap-4 my-4">
       <!-- Top Sales Card -->
       <div class="bg-white shadow rounded-lg mb-4 p-4 sm:p-6 h-full">
@@ -386,7 +276,7 @@ footer: true
                 </div>
               </div>
             </li>
-            <li class="py-3 sm:py-4">
+            <li class="pt-3 sm:pt-4 pb-0">
               <div class="flex items-center space-x-4">
                 <div class="flex-shrink-0">
                   <img class="h-8 w-8 rounded-full" src="/images/users/lana-byrd.png" alt="Neil image">
@@ -405,46 +295,6 @@ footer: true
               </div>
             </li>
           </ul>
-        </div>
-        <!-- Card Footer -->
-        <div class="flex items-center justify-between border-t border-gray-200 pt-3 sm:pt-6">
-          <div>
-            <button class="text-gray-500 hover:text-gray-900 font-medium rounded-lg text-sm text-center inline-flex items-center p-2" type="button" data-dropdown-toggle="customers-dropdown">Last 7 days <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
-            <!-- Dropdown menu -->
-            <div class="hidden bg-white text-base z-50 list-none divide-y divide-gray-100 rounded shadow my-4" id="customers-dropdown">
-                <div class="px-4 py-3" role="none">
-                  <p class="text-sm font-medium text-gray-900 truncate" role="none">
-                    Sep 16, 2021 - Sep 22, 2021
-                  </p>
-                </div>
-                <ul class="py-1" role="none">
-                  <li>
-                    <a href="#" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2" role="menuitem">Yesterday</a>
-                  </li>
-                  <li>
-                    <a href="#" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2" role="menuitem">Today</a>
-                  </li>
-                  <li>
-                    <a href="#" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2" role="menuitem">Last 7 days</a>
-                  </li>
-                  <li>
-                    <a href="#" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2" role="menuitem">Last 30 days</a>
-                  </li>
-                  <li>
-                    <a href="#" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2" role="menuitem">Last 90 days</a>
-                  </li>
-                </ul>
-                <div class="py-1" role="none">
-                  <a href="#" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2" role="menuitem">Custom...</a>
-                </div>
-            </div>
-          </div>
-          <div class="flex-shrink-0">
-            <a href="#" class="text-xs sm:text-sm font-medium hover:bg-gray-100 rounded-lg p-2 uppercase text-cyan-600 inline-flex items-center">
-              Sales Report
-              <svg class="w-4 h-4 sm:w-5 sm:h-5 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
-            </a>
-          </div>
         </div>
       </div>
       <!-- Sessions by device Card -->
@@ -532,9 +382,9 @@ footer: true
                 </td>
               </tr>
               <tr class="text-gray-500">
-                <th class="border-t-0 px-4 align-middle text-sm font-normal whitespace-nowrap p-4 text-left">Email</th>
-                <td class="border-t-0 px-4 align-middle text-xs font-medium text-gray-900 whitespace-nowrap p-4">456</td>
-                <td class="border-t-0 px-4 align-middle text-xs whitespace-nowrap p-4">
+                <th class="border-t-0 align-middle text-sm font-normal whitespace-nowrap p-4 pb-0 text-left">Email</th>
+                <td class="border-t-0 align-middle text-xs font-medium text-gray-900 whitespace-nowrap p-4 pb-0">456</td>
+                <td class="border-t-0 align-middle text-xs whitespace-nowrap p-4 pb-0">
                   <div class="flex items-center">
                     <span class="mr-2 text-xs font-medium">7%</span>
                     <div class="relative w-full">
@@ -548,402 +398,6 @@ footer: true
             </tbody>
           </table>
         </div>
-        <!-- Card Footer -->
-        <div class="flex items-center justify-between border-t border-gray-200 pt-3 sm:pt-6">
-          <div>
-            <button class="text-gray-500 hover:text-gray-900 font-medium rounded-lg text-sm text-center inline-flex items-center p-2" type="button" data-dropdown-toggle="sessions-dropdown">Last 7 days <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
-            <!-- Dropdown menu -->
-            <div class="hidden bg-white text-base z-50 list-none divide-y divide-gray-100 rounded shadow my-4" id="sessions-dropdown">
-                <div class="px-4 py-3" role="none">
-                  <p class="text-sm font-medium text-gray-900 truncate" role="none">
-                    Sep 16, 2021 - Sep 22, 2021
-                  </p>
-                </div>
-                <ul class="py-1" role="none">
-                  <li>
-                    <a href="#" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2" role="menuitem">Yesterday</a>
-                  </li>
-                  <li>
-                    <a href="#" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2" role="menuitem">Today</a>
-                  </li>
-                  <li>
-                    <a href="#" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2" role="menuitem">Last 7 days</a>
-                  </li>
-                  <li>
-                    <a href="#" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2" role="menuitem">Last 30 days</a>
-                  </li>
-                  <li>
-                    <a href="#" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2" role="menuitem">Last 90 days</a>
-                  </li>
-                </ul>
-                <div class="py-1" role="none">
-                  <a href="#" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2" role="menuitem">Custom...</a>
-                </div>
-            </div>
-          </div>
-          <div class="flex-shrink-0">
-            <a href="#" class="text-xs sm:text-sm font-medium hover:bg-gray-100 rounded-lg p-2 uppercase text-cyan-600 inline-flex items-center">
-              Acquisition Report
-              <svg class="w-4 h-4 sm:w-5 sm:h-5 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
-            </a>
-          </div>
-        </div>
       {{< /card>}}
     </div>
-    {{< card>}}
-      <!-- Card Title -->
-      <div class="mb-4 flex items-center justify-between">
-        <div>
-          <h3 class="text-xl font-bold text-gray-900 mb-2">User Signups</h3>
-          <span class="text-base font-normal text-gray-500">This is a list of latest users</span>
-        </div>
-        <div class="flex-shrink-0">
-          <a href="#" class="text-sm font-medium text-cyan-600 hover:bg-gray-100 rounded-lg p-2">View all</a>
-        </div>
-      </div>
-      <!-- Table -->
-      <div class="flex flex-col mt-8">
-        <div class="overflow-x-auto rounded-lg">
-          <div class="align-middle inline-block min-w-full">
-            <div class="shadow overflow-hidden sm:rounded-lg">
-              <table class="min-w-full divide-y divide-gray-200">
-                <thead class="bg-gray-50">
-                  <tr>
-                    <th scope="col" class="p-4 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                      Name
-                    </th>
-                    <th scope="col" class="p-4 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                      Email
-                    </th>
-                    <th scope="col" class="p-4 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                      Country
-                    </th>
-                    <th scope="col" class="p-4 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                      Role
-                    </th>
-                    <th scope="col" class="p-4 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                      Status
-                    </th>
-                    <th scope="col" class="p-4 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                      Edit
-                    </th>
-                  </tr>
-                </thead>
-                <tbody class="bg-white">
-                  <tr>
-                    <td class="p-4 whitespace-nowrap text-sm font-normal text-gray-900">
-                      <div class="flex items-center">
-                        <img class="h-4 w-4 rounded-full mr-2" src="/images/users/neil-sims.png" alt="Neil image">
-                        Neil Sims
-                      </div>
-                    </td>
-                    <td class="p-4 whitespace-nowrap text-sm font-normal text-gray-500">
-                      name@company.com
-                    </td>
-                    <td class="p-4 whitespace-nowrap text-sm font-semibold text-gray-900">
-                      United States
-                    </td>
-                    <td class="p-4 whitespace-nowrap text-sm font-semibold text-gray-900">
-                      Author
-                    </td>
-                    <td class="p-4 whitespace-nowrap">
-                      <span class="bg-green-100 text-green-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-md">Completed</span>
-                    </td>
-                    <td class="p-4 whitespace-nowrap">
-                      <button type="button" data-modal-toggle="user-modal" class="text-white bg-cyan-600 hover:bg-cyan-700 focus:ring-4 focus:ring-cyan-200 font-medium rounded-lg text-sm inline-flex items-center px-2.5 py-1.5 text-center">
-                        <svg class="mr-1 h-4 w-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z"></path><path fill-rule="evenodd" d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z" clip-rule="evenodd"></path></svg>
-                        Edit user
-                      </button>
-                    </td>
-                  </tr>
-                  <tr class="bg-gray-50">
-                    <td class="p-4 whitespace-nowrap text-sm font-normal text-gray-900">
-                      <div class="flex items-center">
-                        <img class="h-4 w-4 rounded-full mr-2" src="/images/users/bonnie-green.png" alt="Bonnie image">
-                        Bonnie Green
-                      </div>
-                    </td>
-                    <td class="p-4 whitespace-nowrap text-sm font-normal text-gray-500">
-                      name@company.com
-                    </td>
-                    <td class="p-4 whitespace-nowrap text-sm font-semibold text-gray-900">
-                      United States
-                    </td>
-                    <td class="p-4 whitespace-nowrap text-sm font-semibold text-gray-900">
-                      Author
-                    </td>
-                    <td class="p-4 whitespace-nowrap">
-                      <span class="bg-green-100 text-green-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-md">Completed</span>
-                    </td>
-                    <td class="p-4 whitespace-nowrap">
-                      <button type="button" data-modal-toggle="user-modal" class="text-white bg-cyan-600 hover:bg-cyan-700 focus:ring-4 focus:ring-cyan-200 font-medium rounded-lg text-sm inline-flex items-center px-2.5 py-1.5 text-center">
-                        <svg class="mr-1 h-4 w-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z"></path><path fill-rule="evenodd" d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z" clip-rule="evenodd"></path></svg>
-                        Edit user
-                      </button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="p-4 whitespace-nowrap text-sm font-normal text-gray-900">
-                      <div class="flex items-center">
-                        <img class="h-4 w-4 rounded-full mr-2" src="/images/users/helene-engels.png" alt="Helene image">
-                        Helene Engels
-                      </div>
-                    </td>
-                    <td class="p-4 whitespace-nowrap text-sm font-normal text-gray-500">
-                      name@company.com
-                    </td>
-                    <td class="p-4 whitespace-nowrap text-sm font-semibold text-gray-900">
-                      Canada
-                    </td>
-                    <td class="p-4 whitespace-nowrap text-sm font-semibold text-gray-900">
-                      Customer
-                    </td>
-                    <td class="p-4 whitespace-nowrap">
-                      <span class="bg-purple-100 text-purple-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-md">Pending</span>
-                    </td>
-                    <td class="p-4 whitespace-nowrap">
-                      <button type="button" data-modal-toggle="user-modal" class="text-white bg-cyan-600 hover:bg-cyan-700 focus:ring-4 focus:ring-cyan-200 font-medium rounded-lg text-sm inline-flex items-center px-2.5 py-1.5 text-center">
-                        <svg class="mr-1 h-4 w-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z"></path><path fill-rule="evenodd" d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z" clip-rule="evenodd"></path></svg>
-                        Edit user
-                      </button>
-                    </td>
-                  </tr>
-                  <tr class="bg-gray-50">
-                    <td class="p-4 whitespace-nowrap text-sm font-normal text-gray-900">
-                      <div class="flex items-center">
-                        <img class="h-4 w-4 rounded-full mr-2" src="/images/users/jese-leos.png" alt="Jese image">
-                        Jese Leos
-                      </div>
-                    </td>
-                    <td class="p-4 whitespace-nowrap text-sm font-normal text-gray-500">
-                      name@company.com
-                    </td>
-                    <td class="p-4 whitespace-nowrap text-sm font-semibold text-gray-900">
-                      United States
-                    </td>
-                    <td class="p-4 whitespace-nowrap text-sm font-semibold text-gray-900">
-                      Admin
-                    </td>
-                    <td class="p-4 whitespace-nowrap">
-                      <span class="bg-green-100 text-green-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-md">Completed</span>
-                    </td>
-                    <td class="p-4 whitespace-nowrap">
-                      <button type="button" data-modal-toggle="user-modal" class="text-white bg-cyan-600 hover:bg-cyan-700 focus:ring-4 focus:ring-cyan-200 font-medium rounded-lg text-sm inline-flex items-center px-2.5 py-1.5 text-center">
-                        <svg class="mr-1 h-4 w-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z"></path><path fill-rule="evenodd" d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z" clip-rule="evenodd"></path></svg>
-                        Edit user
-                      </button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="p-4 whitespace-nowrap text-sm font-normal text-gray-900">
-                      <div class="flex items-center">
-                        <img class="h-4 w-4 rounded-full mr-2" src="/images/users/joseph-mcfall.png" alt="Joseph image">
-                          Joseph  Mcfall
-                      </div>
-                    </td>
-                    <td class="p-4 whitespace-nowrap text-sm font-normal text-gray-500">
-                      name@company.com
-                    </td>
-                    <td class="p-4 whitespace-nowrap text-sm font-semibold text-gray-900">
-                      Australia
-                    </td>
-                    <td class="p-4 whitespace-nowrap text-sm font-semibold text-gray-900">
-                      Author
-                    </td>
-                    <td class="p-4 whitespace-nowrap">
-                      <span class="bg-green-100 text-green-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-md">Completed</span>
-                    </td>
-                    <td class="p-4 whitespace-nowrap">
-                      <button type="button" data-modal-toggle="user-modal" class="text-white bg-cyan-600 hover:bg-cyan-700 focus:ring-4 focus:ring-cyan-200 font-medium rounded-lg text-sm inline-flex items-center px-2.5 py-1.5 text-center">
-                        <svg class="mr-1 h-4 w-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z"></path><path fill-rule="evenodd" d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z" clip-rule="evenodd"></path></svg>
-                        Edit user
-                      </button>
-                    </td>
-                  </tr>
-                  <tr class="bg-gray-50">
-                    <td class="p-4 whitespace-nowrap text-sm font-normal text-gray-900">
-                      <div class="flex items-center">
-                        <img class="h-4 w-4 rounded-full mr-2" src="/images/users/lana-byrd.png" alt="Lana image">
-                        Lana Byrd
-                      </div>
-                    </td>
-                    <td class="p-4 whitespace-nowrap text-sm font-normal text-gray-500">
-                      name@company.com
-                    </td>
-                    <td class="p-4 whitespace-nowrap text-sm font-semibold text-gray-900">
-                     Germany
-                    </td>
-                    <td class="p-4 whitespace-nowrap text-sm font-semibold text-gray-900">
-                      Editor
-                    </td>
-                    <td class="p-4 whitespace-nowrap">
-                      <span class="bg-green-100 text-green-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-md">Completed</span>
-                    </td>
-                    <td class="p-4 whitespace-nowrap">
-                      <button type="button" data-modal-toggle="user-modal" class="text-white bg-cyan-600 hover:bg-cyan-700 focus:ring-4 focus:ring-cyan-200 font-medium rounded-lg text-sm inline-flex items-center px-2.5 py-1.5 text-center">
-                        <svg class="mr-1 h-4 w-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z"></path><path fill-rule="evenodd" d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z" clip-rule="evenodd"></path></svg>
-                        Edit user
-                      </button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="p-4 whitespace-nowrap text-sm font-normal text-gray-900">
-                      <div class="flex items-center">
-                        <img class="h-4 w-4 rounded-full mr-2" src="/images/users/leslie-livingston.png" alt="Leslie image">
-                        Leslie Livingston
-                      </div>
-                    </td>
-                    <td class="p-4 whitespace-nowrap text-sm font-normal text-gray-500">
-                      name@company.com
-                    </td>
-                    <td class="p-4 whitespace-nowrap text-sm font-semibold text-gray-900">
-                      United Stated
-                    </td>
-                    <td class="p-4 whitespace-nowrap text-sm font-semibold text-gray-900">
-                      Author
-                    </td>
-                    <td class="p-4 whitespace-nowrap">
-                      <span class="bg-purple-100 text-purple-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-md">Pending</span>
-                    </td>
-                    <td class="p-4 whitespace-nowrap">
-                      <button type="button" data-modal-toggle="user-modal" class="text-white bg-cyan-600 hover:bg-cyan-700 focus:ring-4 focus:ring-cyan-200 font-medium rounded-lg text-sm inline-flex items-center px-2.5 py-1.5 text-center">
-                        <svg class="mr-1 h-4 w-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z"></path><path fill-rule="evenodd" d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z" clip-rule="evenodd"></path></svg>
-                        Edit user
-                      </button>
-                    </td>
-                  </tr>
-                  <tr class="bg-gray-50">
-                    <td class="p-4 whitespace-nowrap text-sm font-normal text-gray-900">
-                      <div class="flex items-center">
-                        <img class="h-4 w-4 rounded-full mr-2" src="/images/users/michael-gough.png" alt="Michael image">
-                        Michael Gough
-                      </div>
-                    </td>
-                    <td class="p-4 whitespace-nowrap text-sm font-normal text-gray-500">
-                      name@company.com
-                    </td>
-                    <td class="p-4 whitespace-nowrap text-sm font-semibold text-gray-900">
-                      United States
-                    </td>
-                    <td class="p-4 whitespace-nowrap text-sm font-semibold text-gray-900">
-                      Admin
-                    </td>
-                    <td class="p-4 whitespace-nowrap">
-                      <span class="bg-green-100 text-green-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded-md">Completed</span>
-                    </td>
-                    <td class="p-4 whitespace-nowrap">
-                      <button type="button" data-modal-toggle="user-modal" class="text-white bg-cyan-600 hover:bg-cyan-700 focus:ring-4 focus:ring-cyan-200 font-medium rounded-lg text-sm inline-flex items-center px-2.5 py-1.5 text-center">
-                        <svg class="mr-1 h-4 w-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z"></path><path fill-rule="evenodd" d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z" clip-rule="evenodd"></path></svg>
-                        Edit user
-                      </button>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Card Footer -->
-      <div class="flex items-center justify-between pt-3 sm:pt-6">
-        <div>
-          <button class="text-gray-500 hover:text-gray-900 font-medium rounded-lg text-sm text-center inline-flex items-center p-2" type="button" data-dropdown-toggle="transactions-dropdown">Last 7 days <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
-          <!-- Dropdown menu -->
-          <div class="hidden bg-white text-base z-50 list-none divide-y divide-gray-100 rounded shadow my-4" id="transactions-dropdown">
-              <div class="px-4 py-3" role="none">
-                <p class="text-sm font-medium text-gray-900 truncate" role="none">
-                  Sep 16, 2021 - Sep 22, 2021
-                </p>
-              </div>
-              <ul class="py-1" role="none">
-                <li>
-                  <a href="#" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2" role="menuitem">Yesterday</a>
-                </li>
-                <li>
-                  <a href="#" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2" role="menuitem">Today</a>
-                </li>
-                <li>
-                  <a href="#" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2" role="menuitem">Last 7 days</a>
-                </li>
-                <li>
-                  <a href="#" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2" role="menuitem">Last 30 days</a>
-                </li>
-                <li>
-                  <a href="#" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2" role="menuitem">Last 90 days</a>
-                </li>
-              </ul>
-              <div class="py-1" role="none">
-                <a href="#" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2" role="menuitem">Custom...</a>
-              </div>
-          </div>
-        </div>
-        <div class="flex-shrink-0">
-          <a href="#" class="text-xs sm:text-sm font-medium hover:bg-gray-100 rounded-lg p-2 uppercase text-cyan-600 inline-flex items-center">
-           View all users
-            <svg class="w-4 h-4 sm:w-5 sm:h-5 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
-          </a>
-        </div>
-      </div>
-    {{< /card>}}
-</div>
-
-<!-- Edit User Modal -->
-<div class="hidden overflow-x-hidden overflow-y-auto fixed top-4 left-0 right-0 md:inset-0 z-50 justify-center items-center h-modal sm:h-full" id="user-modal">
-  <div class="relative w-full max-w-2xl px-4 h-full md:h-auto">
-      <!-- Modal content -->
-      <div class="bg-white rounded-lg shadow relative">
-          <!-- Modal header -->
-          <div class="flex items-start justify-between p-5 border-b rounded-t">
-              <h3 class="text-xl font-semibold">
-                  Edit user
-              </h3>
-              <button type="button" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center" data-modal-toggle="user-modal">
-                  <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>  
-              </button>
-          </div>
-          <!-- Modal body -->
-          <div class="p-6 space-y-6">
-              <form action="#">
-                  <div class="grid grid-cols-6 gap-6">
-                      <div class="col-span-6 sm:col-span-3">
-                          <label for="first-name" class="text-sm font-medium text-gray-900 block mb-2">First Name</label>
-                          <input type="text" name="first-name" id="first-name" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-cyan-600 focus:ring-cyan-600 block w-full p-2.5" placeholder="Bonnie" required>
-                      </div>
-                      <div class="col-span-6 sm:col-span-3">
-                          <label for="last-name" class="text-sm font-medium text-gray-900 block mb-2">Last Name</label>
-                          <input type="text" name="last-name" id="last-name" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-cyan-600 focus:ring-cyan-600 block w-full p-2.5" placeholder="Green" required>
-                      </div>
-                      <div class="col-span-6 sm:col-span-3">
-                          <label for="email" class="text-sm font-medium text-gray-900 block mb-2">Email</label>
-                          <input type="email" name="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-cyan-600 focus:ring-cyan-600 block w-full p-2.5" placeholder="example@company.com" required>
-                      </div>
-                      <div class="col-span-6 sm:col-span-3">
-                          <label for="phone-number" class="text-sm font-medium text-gray-900 block mb-2">Phone Number</label>
-                          <input type="number" name="phone-number" id="phone-number" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-cyan-600 focus:ring-cyan-600 block w-full p-2.5" placeholder="e.g. +(12)3456 789" required>
-                      </div>
-                      <div class="col-span-6 sm:col-span-3">
-                          <label for="department" class="text-sm font-medium text-gray-900 block mb-2">Department</label>
-                          <input type="text" name="department" id="department" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-cyan-600 focus:ring-cyan-600 block w-full p-2.5" placeholder="Development" required>
-                      </div>
-                      <div class="col-span-6 sm:col-span-3">
-                          <label for="company" class="text-sm font-medium text-gray-900 block mb-2">Company</label>
-                          <input type="number" name="company" id="company" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-cyan-600 focus:ring-cyan-600 block w-full p-2.5" placeholder="123456" required>
-                      </div>
-                      <div class="col-span-6 sm:col-span-3">
-                          <label for="current-password" class="text-sm font-medium text-gray-900 block mb-2">Current Password</label>
-                          <input type="password" name="current-password" id="current-password" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-cyan-600 focus:ring-cyan-600 block w-full p-2.5" placeholder="••••••••" required>
-                      </div>
-                      <div class="col-span-6 sm:col-span-3">
-                          <label for="new-password" class="text-sm font-medium text-gray-900 block mb-2">New Password</label>
-                          <input type="password" name="new-password" id="new-password" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-cyan-600 focus:ring-cyan-600 block w-full p-2.5" placeholder="••••••••" required>
-                      </div>
-                  </div> 
-              </div>
-              <!-- Modal footer -->
-              <div class="items-center p-6 border-t border-gray-200 rounded-b">
-                  <button class="text-white bg-cyan-600 hover:bg-cyan-700 focus:ring-4 focus:ring-cyan-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center" type="submit">Save all</button>
-              </div>
-          </form>
-      </div>
-  </div>
 </div>

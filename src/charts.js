@@ -12,12 +12,8 @@ if (document.getElementById('main-chart')) {
 			}
 		},
 		fill: {
-			type: 'gradient',
-			gradient: {
-				enabled: true,
-				opacityFrom: 0.45,
-				opacityTo: 0
-			}
+			type: 'solid',
+			opacity: 0.3,
 		},
 		dataLabels: {
 			enabled: false
@@ -29,13 +25,7 @@ if (document.getElementById('main-chart')) {
 			},
 		},
 		grid: {
-			show: true,
-			borderColor: '#F3F4F6',
-			strokeDashArray: 1,
-			padding: {
-				left: 35,
-				bottom: 15
-			}
+			show: false,
 		},
 		series: [
 			{
@@ -43,20 +33,7 @@ if (document.getElementById('main-chart')) {
 				data: [6356, 6218, 6156, 6526, 6356, 6256, 6056],
 				color: '#0694a2'
 			},
-			{
-				name: 'Revenue (previous period)',
-				data: [6556, 6725, 6424, 6356, 6586, 6756, 6616],
-				color: '#4E4187'
-			}
 		],
-		markers: {
-			size: 5,
-			strokeColors: '#ffffff',
-			hover: {
-				size: undefined,
-				sizeOffset: 3
-			}
-		},
 		xaxis: {
 			categories: ['01 Feb', '02 Feb', '03 Feb', '04 Feb', '05 Feb', '06 Feb', '07 Feb'],
 			labels: {
@@ -84,17 +61,6 @@ if (document.getElementById('main-chart')) {
 					return '$' + value;
 				}
 			},
-		},
-		legend: {
-			fontSize: '14px',
-			fontWeight: 500,
-			fontFamily: 'Inter, sans-serif',
-			labels: {
-				colors: ['#6B7280']
-			},
-			itemMargin: {
-				horizontal: 10
-			}
 		},
 		responsive: [
 			{
