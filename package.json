@@ -1,11 +1,11 @@
 {
-  "name": "@themesberg/windster-pro-tailwind-css-dashboard",
+  "name": "@themesberg/windster-tailwind-css-dashboard",
   "version": "1.0.0",
-  "description": "Premium Tailwind CSS dashboard interface",
+  "description": "Free and open source Tailwind CSS admin dashboard template",
   "license": "https://themesberg.com/licensing",
   "style": "dist/flowbite.css",
   "main": "static/js/app.bundle.js",
-  "homepage": "https://themesberg.com/product/tailwind-css/dashboard-windster-pro",
+  "homepage": "https://themesberg.com/product/tailwind-css/dashboard-windster",
   "contributors": [
     "Zoltán Szőgyényi <zoltan@themesberg.com>",
     "Robert Tanislav <robert@themesberg.com>",
