@@ -1,6 +1,5 @@
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
-const TerserPlugin = require("terser-webpack-plugin");
 const { SourceMapDevToolPlugin } = require("webpack");
 const path = require('path');
 
@@ -43,24 +42,7 @@ module.exports = {
     })
   ],
   optimization: {
-    minimize: true,
     minimizer: [
-      new TerserPlugin({
-        // Use multi-process parallel running to improve the build speed
-        parallel: true,
-
-        terserOptions: {
-          safari10: true,
-          toplevel: true,
-          mangle: true,
-          compress: {
-            passes: 2,
-            arguments: true,
-            keep_fargs: false,
-            booleans_as_integers: true
-          },
-        }
-      }),
       new CssMinimizerPlugin()
     ]
   },

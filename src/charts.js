@@ -76,6 +76,7 @@ if (document.getElementById('main-chart')) {
 		]
 	};
 
-	const chart = new ApexCharts(document.getElementById('main-chart'), options);
+	const chart = new ApexCharts(document.getElementById('main-chart'), options)
 	chart.render();
 }
+

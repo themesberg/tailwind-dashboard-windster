@@ -39,11 +39,10 @@ This project uses the following tech stack:
 
 ## Table of Contents
 
-* [Versions](#versions)
 * [Demo](#demo)
 * [Quick Start](#quick-start)
 * [Documentation](#documentation)
-* [File Structure](#file-structure)
+* [Folder Structure](#folder-structure)
 * [Browser Support](#browser-support)
 * [Resources](#resources)
 * [Upgrade to PRO](#upgrade-to-pro)
@@ -51,7 +50,7 @@ This project uses the following tech stack:
 * [Technical Support or Questions](#technical-support-or-questions)
 * [Licensing](#licensing)
 * [Useful Links](#useful-links)
-## Demo pages
+## Demo
 
 | Dashboard | Users |
 | --- | --- |
@@ -104,7 +103,7 @@ Windster is first of all a project based on Tailwind CSS but it also uses Flowbi
 - [HUGO](https://gohugo.io/) (static site generator)
 - [Webpack](https://webpack.js.org/) (module bundler)
 
-## File Structure
+## Folder Structure
 Within the download you'll find the following directories and files:
 
 ```
