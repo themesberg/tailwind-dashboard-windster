@@ -2,8 +2,8 @@
 
 [![version](https://img.shields.io/npm/v/@themesberg/volt-bootstrap-5-dashboard)](https://www.npmjs.com/package/@themesberg/volt-bootstrap-5-dashboard)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
-[![GitHub issues open](https://img.shields.io/github/issues/themesberg/volt-bootstrap-5-dashboard.svg)](https://github.com/themesberg/volt-bootstrap-5-dashboard/issues?q=is%3Aopen+is%3Aissue)
-[![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/themesberg/volt-bootstrap-5-dashboard.svg)](https://github.com/themesberg/volt-bootstrap-5-dashboard/issues?q=is%3Aissue+is%3Aclosed)
+[![GitHub issues open](https://img.shields.io/github/issues/themesberg/windster-tailwind-css-dashboard.svg)](https://github.com/themesberg/windster-tailwind-css-dashboard/issues?q=is%3Aissue+is%3Aopen+)
+[![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/themesberg/windster-tailwind-css-dashboard.svg)](https://github.com/themesberg/windster-tailwind-css-dashboard/issues?q=is%3Aissue+is%3Aclosed)
 
 [![Windster Tailwind CSS Dashboard](https://themesberg.s3.us-east-2.amazonaws.com/public/products/windster/og-image.jpg)](https://demo.themesberg.com/windster/)
 
@@ -51,19 +51,19 @@ This project uses the following tech stack:
 * [Technical Support or Questions](#technical-support-or-questions)
 * [Licensing](#licensing)
 * [Useful Links](#useful-links)
-## Demo
+## Demo pages
 
-| Dashboard | Transactions | Settings | Forms |
-| --- | --- | --- | --- |
-| [![Dashboard](https://themesberg.s3.us-east-2.amazonaws.com/public/products/volt-bootstrap-5-dashboard/github/dashboard.jpg)](https://demo.themesberg.com/volt/pages/dashboard/dashboard.html) | [![Transactions](https://themesberg.s3.us-east-2.amazonaws.com/public/products/volt-bootstrap-5-dashboard/github/transactions.jpg)](https://demo.themesberg.com/volt/pages/transactions.html) | [![Settings](https://themesberg.s3.us-east-2.amazonaws.com/public/products/volt-bootstrap-5-dashboard/github/settings.jpg)](https://demo.themesberg.com/volt/pages/settings.html) | [![Forms](https://themesberg.s3.us-east-2.amazonaws.com/public/products/volt-bootstrap-5-dashboard/github/forms.jpg)](https://demo.themesberg.com/volt/pages/components/forms.html)
+| Dashboard | Users |
+| --- | --- |
+| [![Dashboard](https://themesberg.s3.us-east-2.amazonaws.com/public/products/windster/github/pages/homepage.jpg)](https://demo.themesberg.com/windster/) | [![Users](https://themesberg.s3.us-east-2.amazonaws.com/public/products/windster/github/pages/users.jpg)](https://demo.themesberg.com/windster/users/list/) |
 
-| Sign in | Sign up | Forgot password | Reset password |
-| --- | --- | --- | --- |
-| [![Sign in](https://themesberg.s3.us-east-2.amazonaws.com/public/products/volt-bootstrap-5-dashboard/github/signin.jpg)](https://demo.themesberg.com/volt/pages/examples/sign-in.html) | [![Sign up](https://themesberg.s3.us-east-2.amazonaws.com/public/products/volt-bootstrap-5-dashboard/github/signup.jpg)](https://demo.themesberg.com/volt/pages/examples/sign-up.html) | [![Forgot Password](https://themesberg.s3.us-east-2.amazonaws.com/public/products/volt-bootstrap-5-dashboard/github/forgot-password.jpg)](https://demo.themesberg.com/volt/pages/examples/forgot-password.html) | [![Reset password](https://themesberg.s3.us-east-2.amazonaws.com/public/products/volt-bootstrap-5-dashboard/github/reset-password.jpg)](https://demo.themesberg.com/volt/pages/examples/reset-password.html)
+| Products | Login |
+| --- | --- |
+| [![Products](https://themesberg.s3.us-east-2.amazonaws.com/public/products/windster/github/pages/products.jpg)](https://demo.themesberg.com/windster/e-commerce/products/) | [![Login](https://themesberg.s3.us-east-2.amazonaws.com/public/products/windster/github/pages/login.jpg)](https://demo.themesberg.com/windster/authentication/sign-in/) |
 
-| Lock Profile | 404 Not Found | 500 Server Error | Documentation |
-| --- | --- | --- | --- |
-| [![Lock Profile](https://themesberg.s3.us-east-2.amazonaws.com/public/products/volt-bootstrap-5-dashboard/github/lock.jpg)](https://demo.themesberg.com/volt/pages/examples/lock.html) | [![404 Not Found](https://themesberg.s3.us-east-2.amazonaws.com/public/products/volt-bootstrap-5-dashboard/github/404.jpg)](https://demo.themesberg.com/volt/pages/examples/404.html) | [![500 Server Error](https://themesberg.s3.us-east-2.amazonaws.com/public/products/volt-bootstrap-5-dashboard/github/500.jpg)](https://demo.themesberg.com/volt/pages/examples/500.html) | [![Documentation](https://themesberg.s3.us-east-2.amazonaws.com/public/products/volt-bootstrap-5-dashboard/github/docs.jpg)](https://themesberg.com/docs/volt-bootstrap-5-dashboard/getting-started/quick-start/)
+| Register | Components |
+| --- | --- |
+| [![Register](https://themesberg.s3.us-east-2.amazonaws.com/public/products/windster/github/pages/users.jpg)](https://demo.themesberg.com/windster/authentication/sign-up/) | [![Components](https://themesberg.s3.us-east-2.amazonaws.com/public/products/windster/github/pages/flowbite.jpg)](https://flowbite.com/docs/getting-started/introduction/) |
 
 -   [Live Preview](https://demo.themesberg.com/windster/)
 -   [Download from Themesberg](https://themesberg.com/product/tailwind-css/dashboard-windster)
