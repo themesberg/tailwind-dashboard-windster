@@ -62,7 +62,7 @@ This project uses the following tech stack:
 
 | Register | Components |
 | --- | --- |
-| [![Register](https://themesberg.s3.us-east-2.amazonaws.com/public/products/windster/github/pages/users.jpg)](https://demo.themesberg.com/windster/authentication/sign-up/) | [![Components](https://themesberg.s3.us-east-2.amazonaws.com/public/products/windster/github/pages/docs.jpg)](https://flowbite.com/docs/getting-started/introduction/) |
+| [![Register](https://themesberg.s3.us-east-2.amazonaws.com/public/products/windster/github/pages/register.jpg)](https://demo.themesberg.com/windster/authentication/sign-up/) | [![Components](https://themesberg.s3.us-east-2.amazonaws.com/public/products/windster/github/pages/docs.jpg)](https://flowbite.com/docs/getting-started/introduction/) |
 
 -   [Live Preview](https://demo.themesberg.com/windster/)
 -   [Download from Themesberg](https://themesberg.com/product/tailwind-css/dashboard-windster)
