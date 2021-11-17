@@ -6,7 +6,7 @@ canonifyURLs: true
 
 params:
   authors: Themesberg
-  social_image_path: /docs/images/og-image.png
+  social_image_path: /docs/images/og-image.jpg
 
 markup:
   goldmark:
