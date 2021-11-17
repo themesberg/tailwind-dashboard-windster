@@ -7,7 +7,7 @@
 
 [![Windster Tailwind CSS Dashboard](https://themesberg.s3.us-east-2.amazonaws.com/public/products/windster/og-image-new.jpg)](https://demo.themesberg.com/windster/)
 
-Windster is a free and open source Tailwind CSS admin dashboard layout featuring a responsive sidebar layouts, authentication pages, charts, users, products pages and hunderds of Tailwind CSS components based on the [open-source Flowbite library](https://github.com/themesberg/flowbite) such as buttons, dropdowns, navbars, datepickers, and more.
+Windster is a free and open source Tailwind CSS admin dashboard layout featuring a responsive sidebar layouts, authentication pages, charts, users, products pages and hunderds of Tailwind CSS components based on the [Flowbite library](https://github.com/themesberg/flowbite) such as buttons, dropdowns, navbars, datepickers, and more.
 
 ## Build with Tailwind CSS
 
