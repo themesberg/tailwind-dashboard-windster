@@ -1,4 +1,4 @@
-# [Windster - Tailwind CSS Dashboard](https://demo.themesberg.com/windster/) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fthemesberg%2Fwindster-tailwind-css-dashboard&via=themesberg&text=Check%20out%20this%20open%20source%20Tailwind%20CSS%20dashboard)
+# [Windster - Tailwind CSS Admin Dashboard](https://demo.themesberg.com/windster/) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fthemesberg%2Fwindster-tailwind-css-dashboard&via=themesberg&text=Check%20out%20this%20open%20source%20Tailwind%20CSS%20dashboard)
 
 [![version](https://img.shields.io/npm/v/@themesberg/windster-tailwind-css-dashboard)](https://www.npmjs.com/package/@themesberg/windster-tailwind-css-dashboard)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
