@@ -17,7 +17,7 @@ The pages of this project have been built using only the utility classes from Ta
 
 Windster also uses the [open source Tailwind CSS components from Flowbite](https://flowbite.com) including buttons, alerts, typography, dropdowns, navbars, and many more. These components also exclusively use the Tailwind CSS utility classes so there is no need to include any extra CSS into your project.
 
-## 5 Example pages
+## Example pages
 
 The open source version of Windster includes 5 application UI example pages including a main dashboard layout, a login page, a register page, a users page and a products page where there are also modals included for the CRUD actions.
 
