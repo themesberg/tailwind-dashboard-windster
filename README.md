@@ -1,6 +1,6 @@
 # [Windster - Tailwind CSS Dashboard](https://demo.themesberg.com/windster/) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fthemesberg%2Fwindster-tailwind-css-dashboard&via=themesberg&text=Check%20out%20this%20open%20source%20Tailwind%20CSS%20dashboard)
 
-[![version](https://img.shields.io/npm/v/@themesberg/volt-bootstrap-5-dashboard)](https://www.npmjs.com/package/@themesberg/volt-bootstrap-5-dashboard)
+[![version](https://img.shields.io/npm/v/@themesberg/windster-tailwind-css-dashboard)](https://www.npmjs.com/package/@themesberg/windster-tailwind-css-dashboard)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
 [![GitHub issues open](https://img.shields.io/github/issues/themesberg/windster-tailwind-css-dashboard.svg)](https://github.com/themesberg/windster-tailwind-css-dashboard/issues?q=is%3Aissue+is%3Aopen+)
 [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/themesberg/windster-tailwind-css-dashboard.svg)](https://github.com/themesberg/windster-tailwind-css-dashboard/issues?q=is%3Aissue+is%3Aclosed)
