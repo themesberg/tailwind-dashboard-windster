@@ -93,7 +93,7 @@ To build the final project files run the following command:
 npm run build
 ```
 
-The file will be available in the `_gh_pages/` folder.
+The file will be available in the `.build/` folder.
 
 ## Documentation
 
