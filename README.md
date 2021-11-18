@@ -7,19 +7,19 @@
 
 [![Windster Tailwind CSS Dashboard](https://themesberg.s3.us-east-2.amazonaws.com/public/products/windster/og-image-new.jpg)](https://demo.themesberg.com/windster/)
 
-Windster is a free and open source Tailwind CSS admin dashboard layout featuring responsive sidebar layouts, authentication pages, charts, users, products pages and hundreds of Tailwind CSS components based on the [Flowbite library](https://github.com/themesberg/flowbite) such as buttons, dropdowns, navbars, datepickers, and more.
+Windster is a free and open-source Tailwind CSS admin dashboard layout featuring responsive sidebar layouts, authentication pages, charts, users, products pages and hundreds of Tailwind CSS components based on the [Flowbite component library](https://github.com/themesberg/flowbite) such as buttons, dropdowns, navbars, modals, datepickers, and more.
 
 ## Build with Tailwind CSS
 
-The pages of this project have been built using only the utility classes from Tailwind CSS and you can continue working with Windster as with any other Tailwind CSS project as it uses the standard Post CSS configuration method together with purging classes as it is recommended.
+The pages of this project have been built using only the utility classes from Tailwind CSS and you can continue working with Windster as with any other Tailwind CSS project as it uses the standard PostCSS configuration method together with purging classes as it is recommended.
 
 ## Components from Flowbite
 
-Windster also uses the [open source Tailwind CSS components from Flowbite](https://flowbite.com) including buttons, alerts, typography, dropdowns, navbars, and many more. These components also exclusively use the Tailwind CSS utility classes so there is no need to include any extra CSS into your project.
+Windster also uses the [open-source Tailwind CSS components from Flowbite](https://flowbite.com) including buttons, alerts, typography, dropdowns, navbars, and many more. These components also exclusively use the Tailwind CSS utility classes so there is no need to include any extra CSS into your project.
 
 ## Example pages
 
-The open source version of Windster includes 5 application UI example pages including a main dashboard layout, a login page, a register page, a users page and a products page where there are also modals included for the CRUD actions.
+The open-source version of Windster comes with 5 application UI example pages including a main dashboard layout, a login page, a register page, a users page and a products page where there are also modals included for the CRUD actions.
 
 ## HUGO static site generator
 
@@ -27,7 +27,8 @@ We decided to use the HUGO static site generator system to build the HTML templa
 
 ## Webpack module bundler
 
-Windster uses Webpack to bundle assets and to watch for changes and tie together the compilation actions from HUGO and Post CSS. Feel free to customize the Webpack configuration file based on your needs. We also included a CSS minification feature when building for production.
+Windster uses Webpack to bundle assets and to watch for changes and tie together the compilation actions from HUGO and PostCSS. Feel free to customize the Webpack configuration file based on your needs. We also included a CSS minification feature when building for production.
+
 ## Workflow
 
 This project uses the following tech stack:
@@ -50,6 +51,7 @@ This project uses the following tech stack:
 * [Technical Support or Questions](#technical-support-or-questions)
 * [Licensing](#licensing)
 * [Useful Links](#useful-links)
+
 ## Demo
 
 | Dashboard | Users |
@@ -104,6 +106,7 @@ Windster is first of all a project based on Tailwind CSS but it also uses Flowbi
 - [Webpack](https://webpack.js.org/) (module bundler)
 
 ## Folder Structure
+
 Within the download you'll find the following directories and files:
 
 ```
