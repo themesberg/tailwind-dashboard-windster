@@ -1,6 +1,6 @@
 {
   "name": "@themesberg/windster-tailwind-css-dashboard",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Free and open source Tailwind CSS admin dashboard template",
   "license": "https://themesberg.com/licensing",
   "style": "dist/flowbite.css",

@@ -100,8 +100,8 @@ The file will be available in the `.build/` folder.
 
 Windster is first of all a project based on Tailwind CSS but it also uses Flowbite to enable more components, HUGO to generate static HTML files and Webpack for assets bundling.
 
-- [Tailwind CSS](https://tailwindcss.com/) (main CSS framework)
 - [Flowbite](https://flowbite.com/) (Tailwind CSS components)
+- [Tailwind CSS](https://tailwindcss.com/) (main CSS framework)
 - [HUGO](https://gohugo.io/) (static site generator)
 - [Webpack](https://webpack.js.org/) (module bundler)
 
