@@ -1,31 +1,19 @@
 module.exports = {
-  purge: {
-    // enabled: true,
-    content: [
-      './layouts/**/*.html',
-      './content/**/*.md',
-      './content/**/*.html',
-      './src/*.js',
-      './node_modules/**/*.js'
-    ],
-    options: {
-      safelist: [
-        'w-64',
-        'w-1/2',
-        'rounded-l-lg',
-        'rounded-r-lg',
-        'bg-gray-200',
-        'grid-cols-4',
-        'grid-cols-7',
-        'h-6',
-        'leading-6',
-        'h-9',
-        'leading-9',
-        'shadow-lg',
-        /data-.*/
-      ],
-    }
-  },
+  content: ["./layouts/**/*.html", "./content/**/*.md", "./content/**/*.html", "./src/**/*.js", "./node_modules/**/*.js"],
+  safelist: [
+    'w-64',
+    'w-1/2',
+    'rounded-l-lg',
+    'rounded-r-lg',
+    'bg-gray-200',
+    'grid-cols-4',
+    'grid-cols-7',
+    'h-6',
+    'leading-6',
+    'h-9',
+    'leading-9',
+    'shadow-lg'
+  ],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
@@ -58,6 +46,6 @@ module.exports = {
   },
 
   plugins: [
-    require('@themesberg/flowbite/plugin'),
+    require('flowbite/plugin'),
   ],
 }

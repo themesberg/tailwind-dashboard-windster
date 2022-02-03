@@ -1,5 +1,5 @@
 import './style.css';
-import '@themesberg/flowbite';
+import 'flowbite';
 import './sidebar';
 import './charts';
 
