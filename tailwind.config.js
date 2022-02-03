@@ -1,5 +1,11 @@
 module.exports = {
-  content: ["./layouts/**/*.html", "./content/**/*.md", "./content/**/*.html", "./src/**/*.js", "./node_modules/**/*.js"],
+  content: [
+    "./layouts/**/*.html",
+    "./content/**/*.md",
+    "./content/**/*.html",
+    "./src/**/*.js",
+    "./node_modules/flowbite/**/*.js"
+  ],
   safelist: [
     'w-64',
     'w-1/2',
